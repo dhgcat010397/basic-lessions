@@ -81,3 +81,8 @@ console.log(myArray5[3].name); // John
 console.log(myArray5[4]); // [1, 2, 3]
 console.log(myArray5[4][1]); // 2
 console.log(myArray5[5]()); // Hello
+
+// findIndex() trả về chỉ số của phần tử đầu tiên trong mảng thỏa mãn điều kiện, nếu không tìm thấy thì trả về -1
+const myArray6 = [1, 2, 3, 4, 5];
+const index = myArray6.findIndex((item) => item > 3);
+console.log(index); // 3
